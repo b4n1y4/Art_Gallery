@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js"></script>
+    <title>Art Gallery</title>
+</head>
+
+<body>
+    <header>
+        <div id="top">Gallery</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="container">
+            <div class="name_container">
+                <button class="fas fa-chevron-up" onclick="change('u');"></button>
+                <ul id="names">
+                    <li class="active">haha</li>
+                    <li style="display: none;">hehe</li>
+                    <li style="display: none;">hihi</li>
+                    <li style="display: none;">hoho</li>
+                    <li style="display: none;">huhu</li>
+                </ul>
+                <button class="fas fa-chevron-down" onclick="change('d');"></button>
+            </div>
+            <div id="img_holder">
+                <ul id="images">
+                    <li class="active"><img src="https://s11.favim.com/orig/7/766/7664/76640/mood-cursed-cringe-Favim.com-7664080.jpg" width="100%" alt=""></li>
+                    <li style="display: none;"><img src="http://pm1.narvii.com/6893/c10e82d71656cbe7d24deb2771c2596b18c16735r1-640-765v2_uhq.jpg" width="100%"  alt=""></li>
+                    <li style="display: none;"><img src="https://img.memecdn.com/self-cursed_c_7273776.webp" width="100%" alt=""></li>
+                    <li style="display: none;"><img src="https://i.redd.it/3ddocixo4w551.jpg" width="100%" alt=""></li>
+                    <li style="display: none;"><img src="https://pm1.narvii.com/7714/185cb6f6eb9f3c040f2eb7608ed89444bbd52fcbr1-2048-996v2_hq.jpg" width="100%" alt=""></li>
+                </ul>
+            </div>
+            <ul id="desc">
+                <h4>Description</h4>
+                <li class="active">
+                    <p>
+                        desc 1 <br>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo odio cupiditate quisquam
+                        nesciunt velit, nihil ipsum, assumenda minima doloribus earum incidunt maxime facere ducimus,
+                        rem necessitatibus voluptate. Temporibus porro quam vero minus doloribus voluptatem saepe iure
+                        exercitationem perferendis officia! Eius obcaecati assumenda soluta dolorem? Illum, officia?
+                        Quia quaerat dolorum repellendus.
+                    </p>
+                </li>
+                <li style="display: none;">
+                    <p> Desc 2 <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo odio cupiditate
+                        quisquam nesciunt velit, nihil ipsum, assumenda minima doloribus earum incidunt maxime facere
+                        ducimus, rem necessitatibus voluptate. Temporibus porro quam vero minus doloribus voluptatem
+                        saepe iure exercitationem perferendis officia! Eius obcaecati assumenda soluta dolorem? Illum,
+                        officia? Quia quaerat dolorum repellendus.</p>
+                </li>
+                <li style="display: none;">desc 3 <br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo odio cupiditate quisquam
+                        nesciunt velit, nihil ipsum, assumenda minima doloribus earum incidunt maxime facere ducimus,
+                        rem necessitatibus voluptate. Temporibus porro quam vero minus doloribus voluptatem saepe iure
+                        exercitationem perferendis officia! Eius obcaecati assumenda soluta dolorem? Illum, officia?
+                        Quia quaerat dolorum repellendus.</p>
+                </li>
+                <li style="display: none;">desc 4 <br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo odio cupiditate quisquam
+                        nesciunt velit, nihil ipsum, assumenda minima doloribus earum incidunt maxime facere ducimus,
+                        rem necessitatibus voluptate. Temporibus porro quam vero minus doloribus voluptatem saepe iure
+                        exercitationem perferendis officia! Eius obcaecati assumenda soluta dolorem? Illum, officia?
+                        Quia quaerat dolorum repellendus.</p>
+                </li>
+                <li style="display: none;">desc 5 <br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo odio cupiditate quisquam
+                        nesciunt velit, nihil ipsum, assumenda minima doloribus earum incidunt maxime facere ducimus,
+                        rem necessitatibus voluptate. Temporibus porro quam vero minus doloribus voluptatem saepe iure
+                        exercitationem perferendis officia! Eius obcaecati assumenda soluta dolorem? Illum, officia?
+                        Quia quaerat dolorum repellendus.</p>
+                </li>
+            </ul>
+        </div>
+    </main>
+</body>
+
+</html>
